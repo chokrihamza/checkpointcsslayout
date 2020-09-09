@@ -1,0 +1,291 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin:0%;
+    padding:0%;
+    font-family: Helvetica ,Helvetica,Arial,sans-serif;
+}
+header{
+    display: flex;
+    background-color:white;
+    align-items:center;
+    height: 100px;
+    position:fixed;
+    width:100%;
+    margin:0 10%;
+    
+top:0%;
+    justify-content: space-between;
+    
+}
+header a {
+    text-decoration:none;
+    color: #ababab;
+}
+header ul{
+    list-style: none;
+    display:flex;
+     position: relative;
+    height:50px;
+    font-size: .9375rem;
+    width:30%;
+    line-height: 2em;
+    margin-right: 20%;
+   justify-content: flex-end;
+
+    
+}
+header ul li{
+    margin:2%;
+    
+}
+
+header ol{
+    list-style: none;
+    
+   display: none;
+  position: absolute;
+  
+  
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  z-index: 1;
+}
+header ol li{
+    width:200px;
+    padding-left:4%;
+    margin:10% 0%;
+    
+    
+}
+.dropdown{
+    padding-top:2%;
+    right: 0%;
+    background-color:white;
+   
+}
+
+.hove:hover  .dropdown{
+    display:block;
+    
+    
+}
+
+.dropdown a:hover{
+    
+    color:#00b39b;
+}
+
+
+/* introduction CSS */
+.inroduction{
+    margin: 10% 10% 0% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inroduction div{
+    display: flex;
+}
+.inroduction h1{
+    margin: 5%;
+    color: #00b39b;
+    font-size: 2.125rem;
+}
+.inroduction div p{
+    line-height: 1.5;
+    color: gray;
+    /* width: 41%; */
+    padding: 2%;
+
+}
+/* CSS contries part */
+.contries{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2% 10%;
+    justify-content: space-between;
+}
+.contry{
+    margin-bottom: 2%;
+    border: gray 2px solid;
+    border-radius: 6px;
+}
+.contry div{
+    display: flex;
+    justify-content: space-between;
+    padding: 6%; display: flex;
+}
+.contry:hover{
+    box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
+}
+button{
+    background-color: mediumaquamarine;
+    color:white;
+    padding: 10px 15px;
+  text-align: center;
+  
+  display: inline-block;
+  font-size: 16px
+}
+button:hover{
+    background-color: blue;
+}
+
+
+/*section 2*/
+.section2{
+    display:flex;
+    justify-content: center;
+    margin: 5% 10% 0% 10%;
+    
+    
+}
+.patient{
+    background-color: #00b39b;
+    width: 50%;
+    margin:0% 2.5% 0% 0% ;
+    border-radius:3%;
+    color:white;
+    padding:4% 0% 0% 5%;
+     
+    height:500px;
+    position:relative;
+    overflow:hidden;
+    font-size: 1.25em;
+
+}
+.doctors{
+    background: #3d83df;
+    width: 50%;
+    border-radius:3%;
+    margin:0% 2.5% 0% 0% ;
+    color:white;
+    padding:4% 0% 0% 5%;
+    padding-left:5%;
+    height:500px;
+    position:relative;
+    overflow:hidden;
+    font-size: 1.25em;
+}
+    
+
+
+.patient img{
+    position: absolute;
+    right:-35%;
+    
+
+}
+.doctors img{
+    position: absolute;
+    right:-35%;
+    
+}
+
+.patient h1{
+  margin-right:5%;
+  box-sizing: border-box;
+}
+
+/* section N 3*/
+.section3{
+    display: flex;
+    margin:5% 10%;
+   
+    
+
+}
+ .section3 h1{
+     color:#00b39b;
+     width:35%;
+     line-height:150%;
+ }
+
+.section3 div a{
+    margin:4%;
+    fill: hsla(0,0%,67%,.7);
+    transition: all .2s ease 0s;
+    
+}
+
+.section3 div a:hover{
+    fill:#00b39b;
+}
+
+/*section 4*/
+
+.section4{
+    display: flex;
+    margin:10% 0%;
+    height: 670px;
+    background-color:#e5faf8;
+    color: #747474;
+    
+    align-items: center;
+}
+.description{
+    width:50%;
+    text-align: center;
+    margin-top:7%;
+    
+    
+    
+    
+}
+.description h1{
+    color:#00b39b;
+    font-size: 2.125rem;
+    font-weight: 300;
+    letter-spacing: .3px;
+}
+.visit{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.visit div{
+    width:33%;
+    background-color:white;
+    
+    text-align: center;
+    
+    font-weight: 2%;
+    
+    border-radius: 2%;
+    
+  
+}
+.visit h2{
+    color:#00b39b;
+}
+.decal1{
+    height: 270px;
+    margin:7% 2% 0% 0%;
+   
+    padding: 10% 0%;
+    
+}
+.decal2{
+    height:270px;
+    padding: 10% 0%;
+    
+}
+.fond{
+    position:absolute;
+    width: 500px;
+    left:-10%;
+}
+footer{
+text-align: center;
+color: #ababab;
+
+}
+footer a{
+    text-decoration:none;
+    color:blue;
+}
